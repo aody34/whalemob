@@ -16,13 +16,10 @@ function CTAButtons() {
 
             {/* Join the Family Button */}
             <a
-                href="#"
+                href="https://twitter.com/i/communities/2011336044575105404"
                 className="btn-outline"
-                onClick={(e) => {
-                    e.preventDefault()
-                    // TODO: Add community link (e.g., Telegram, Discord)
-                    alert('Community link coming soon!')
-                }}
+                target="_blank"
+                rel="noopener noreferrer"
             >
                 Join the Family
             </a>
