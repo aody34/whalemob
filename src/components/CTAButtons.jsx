@@ -3,13 +3,10 @@ function CTAButtons() {
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 animate-fade-in-delay-2">
             {/* Buy $MOB Button */}
             <a
-                href="#"
+                href="https://pump.fun/coin/3Cp1LQSqat9aseuWpyiSkkXiUGfpjPQn579Xc64Gpump"
                 className="btn-primary animate-pulse-glow"
-                onClick={(e) => {
-                    e.preventDefault()
-                    // TODO: Add buy link (e.g., Raydium, Jupiter)
-                    alert('Buy link coming soon!')
-                }}
+                target="_blank"
+                rel="noopener noreferrer"
             >
                 Buy $MOB
             </a>
